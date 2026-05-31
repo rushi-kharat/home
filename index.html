@@ -196,7 +196,7 @@
     <div class="logo"><i class="fas fa-shield-haltered"></i> Rushikesh Kharat</div>
     <div class="nav-actions">
       <div class="nav-links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#tools">QA Tools</a><a href="#resources">Resources</a></div>
-      <div class="live-viewers"><span class="live-dot"></span> <span id="liveViewers">3</span> viewing now</div>
+      <div class="live-viewers"><span class="live-dot"></span> <span id="liveViewers">1</span> viewing now</div>
       <div class="visitor-count">👁️ <span id="visitorCount">1,000</span> views</div>
       <div class="date-time" id="liveDateTime"><span id="visitorFlagSmall" style="font-size:16px;">🌍</span><span id="dateDisplay">---</span><span style="opacity:0.5;">·</span><span id="timeDisplay">--:--:--</span><span style="font-size:10px;opacity:0.6;" id="timezoneLabel"></span></div>
       <button class="theme-toggle" id="themeToggle" aria-label="Switch theme"><i class="fas fa-moon"></i></button>
@@ -234,10 +234,33 @@
       <h2 class="section-title">💼 Professional Summary</h2>
       <p class="section-subtitle">6.5+ years of expertise in software testing and quality assurance</p>
       <div class="timeline">
-        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> Automation Testing</h4><p>Designed scalable frameworks using Playwright, Selenium, Python, PyTest, BDD. Automated 2000+ test cases.</p></div>
-        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> API & ETL Testing</h4><p>Extensive experience in API Automation, Data Warehouse Testing, Data Migration across Snowflake, PostgreSQL, Oracle.</p></div>
-        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> Quality Leadership</h4><p>Led Test Planning, Strategy, Release Planning. Mentored QA teams and implemented CI/CD continuous testing.</p></div>
-        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> AI-Assisted Testing</h4><p>Implemented AI solutions using GitHub Copilot Enterprise, Playwright MCP, and Agentic AI concepts.</p></div>
+        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> Automation Testing</h4><p>Designed scalable frameworks using Playwright, Selenium, Python, PyTest, BDD. Automated 2000+ UI, API, ETL, and Database test cases.</p></div>
+        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> API & ETL Testing</h4><p>Extensive experience in API Automation, Data Warehouse Testing, Data Migration, and Source-to-Target Validation across Snowflake, PostgreSQL, Oracle.</p></div>
+        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> Quality Leadership</h4><p>Led Test Planning, Strategy, Release Planning, and Risk Assessment. Mentored QA teams and implemented continuous testing in CI/CD pipelines.</p></div>
+        <div class="timeline-item"><h4><i class="fas fa-check-circle"></i> AI-Assisted Testing</h4><p>Implemented AI solutions using GitHub Copilot Enterprise, Playwright MCP, and Agentic AI concepts for smarter test automation.</p></div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">⚡ Technical Skills</h2>
+      <p class="section-subtitle">Technologies and tools I work with daily</p>
+      <div class="tech-cloud">
+        <span class="tech-tag"><i class="devicon-playwright-plain colored"></i> Playwright</span>
+        <span class="tech-tag"><i class="devicon-selenium-original colored"></i> Selenium</span>
+        <span class="tech-tag"><i class="devicon-python-plain colored"></i> Python</span>
+        <span class="tech-tag"><i class="devicon-pytest-plain colored"></i> PyTest</span>
+        <span class="tech-tag"><i class="devicon-cypressio-plain colored"></i> Cypress</span>
+        <span class="tech-tag"><i class="devicon-postgresql-plain colored"></i> PostgreSQL</span>
+        <span class="tech-tag"><i class="devicon-amazonwebservices-original colored"></i> AWS</span>
+        <span class="tech-tag"><i class="devicon-jenkins-line colored"></i> Jenkins</span>
+        <span class="tech-tag"><i class="devicon-github-original"></i> GitHub Actions</span>
+        <span class="tech-tag"><i class="devicon-git-plain colored"></i> Git</span>
+        <span class="tech-tag"><i class="devicon-jira-plain colored"></i> Jira/Xray</span>
+        <span class="tech-tag"><i class="devicon-pandas-plain colored"></i> Pandas</span>
+        <span class="tech-tag"><i class="fas fa-database"></i> Snowflake</span>
+        <span class="tech-tag"><i class="fas fa-plug"></i> REST Assured</span>
+        <span class="tech-tag"><i class="fas fa-vial"></i> JMeter</span>
+        <span class="tech-tag"><i class="fas fa-brain"></i> AI Testing</span>
       </div>
     </section>
 
@@ -260,15 +283,21 @@
       </div>
     </section>
 
-    <!-- ============================================ -->
-    <!-- QA TOOLS SECTION -->
-    <!-- ============================================ -->
+    <section id="resources">
+      <h2 class="section-title">📂 Resources</h2>
+      <p class="section-subtitle">Download my resume, test artifacts, and explore my work</p>
+      <div class="resources-grid">
+        <a class="resource-card" id="downloadResume"><i class="fas fa-file-pdf"></i><span><strong>Resume</strong></span><small>Download PDF</small></a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="resource-card"><i class="fab fa-github"></i><span><strong>GitHub</strong></span><small>View Repositories</small></a>
+        <a class="resource-card" id="downloadTestCases"><i class="fas fa-file-excel"></i><span><strong>Test Cases</strong></span><small>Sample Excel</small></a>
+        <a class="resource-card" id="downloadEvidence"><i class="fas fa-images"></i><span><strong>Test Evidence</strong></span><small>Reports & Screenshots</small></a>
+      </div>
+    </section>
+
     <section id="tools">
       <h2 class="section-title">🧰 QA Tools & Calculators</h2>
       <p class="section-subtitle">Free utilities for testing professionals</p>
       <div class="tools-grid">
-
-        <!-- Test Estimation Calculator -->
         <div class="tool-card">
           <h4><i class="fas fa-calculator"></i> Test Estimation Calculator</h4>
           <label style="font-size:0.8rem;">Number of Test Cases</label>
@@ -278,8 +307,6 @@
           <button onclick="calculateEstimation()">Calculate Effort</button>
           <div class="tool-result" id="estimationResult">📊 Estimated: 300 hours (37.5 days)</div>
         </div>
-
-        <!-- Automation ROI Calculator -->
         <div class="tool-card">
           <h4><i class="fas fa-chart-line"></i> Automation ROI Calculator</h4>
           <label style="font-size:0.8rem;">Manual Test Hours/Month</label>
@@ -289,77 +316,36 @@
           <button onclick="calculateROI()">Calculate ROI</button>
           <div class="tool-result" id="roiResult">💰 Annual Savings: $76,800 (80% reduction)</div>
         </div>
-
-        <!-- Bug Severity Classifier -->
         <div class="tool-card">
           <h4><i class="fas fa-bug"></i> Bug Severity Classifier</h4>
           <textarea id="bugDesc" rows="3" placeholder="Describe the bug...">Application crashes when user submits form with empty email field</textarea>
           <button onclick="classifyBug()">Classify Severity</button>
           <div class="tool-result" id="severityResult">🔴 Critical - System crash/data loss</div>
         </div>
-
-        <!-- Test Data Generator -->
         <div class="tool-card">
           <h4><i class="fas fa-database"></i> Test Data Generator</h4>
           <select id="dataType"><option value="email">Random Email</option><option value="name">Full Name</option><option value="phone">Phone Number</option><option value="uuid">UUID</option></select>
           <button onclick="generateData()" style="margin-top:8px;">Generate</button>
           <div class="tool-result" id="dataResult">📧 test.user@example.com</div>
         </div>
-
-        <!-- API Response Time Checker -->
         <div class="tool-card">
           <h4><i class="fas fa-plug"></i> API Response Time Checker</h4>
           <input type="text" id="apiUrl" placeholder="https://api.example.com/health" value="https://jsonplaceholder.typicode.com/posts/1">
           <button onclick="checkAPI()">Check Response Time</button>
           <div class="tool-result" id="apiResult">⏱️ Click to test API response time</div>
         </div>
-
-        <!-- SQL Query Formatter -->
         <div class="tool-card">
           <h4><i class="fas fa-code"></i> SQL Query Formatter</h4>
           <textarea id="sqlInput" rows="3" placeholder="SELECT * FROM users WHERE status='active' ORDER BY created_at DESC;">SELECT id,name,email FROM users WHERE status='active' AND role='admin' ORDER BY created_at DESC LIMIT 10</textarea>
           <button onclick="formatSQL()">Format SQL</button>
           <div class="tool-result" id="sqlResult" style="font-family:monospace;white-space:pre-wrap;">Formatted SQL will appear here...</div>
         </div>
-
-        <!-- JSON Validator & Formatter -->
         <div class="tool-card">
           <h4><i class="fas fa-brackets-curly"></i> JSON Validator & Formatter</h4>
           <textarea id="jsonInput" rows="3" placeholder='{"name":"test","value":123}'>{"name":"Rushikesh","role":"QA Engineer","skills":["Playwright","Python"],"experience":6.5}</textarea>
           <button onclick="formatJSON()">Validate & Format</button>
           <div class="tool-result" id="jsonResult" style="font-family:monospace;white-space:pre-wrap;">Formatted JSON will appear here...</div>
         </div>
-
-      </div>
-    </section>
-
-    <section id="skills">
-      <h2 class="section-title">⚡ Technical Skills</h2>
-      <p class="section-subtitle">Technologies and tools I work with daily</p>
-      <div class="tech-cloud">
-        <span class="tech-tag"><i class="devicon-playwright-plain colored"></i> Playwright</span>
-        <span class="tech-tag"><i class="devicon-selenium-original colored"></i> Selenium</span>
-        <span class="tech-tag"><i class="devicon-python-plain colored"></i> Python</span>
-        <span class="tech-tag"><i class="devicon-pytest-plain colored"></i> PyTest</span>
-        <span class="tech-tag"><i class="devicon-cypressio-plain colored"></i> Cypress</span>
-        <span class="tech-tag"><i class="devicon-postgresql-plain colored"></i> PostgreSQL</span>
-        <span class="tech-tag"><i class="devicon-amazonwebservices-original colored"></i> AWS</span>
-        <span class="tech-tag"><i class="devicon-jenkins-line colored"></i> Jenkins</span>
-        <span class="tech-tag"><i class="devicon-github-original"></i> GitHub Actions</span>
-        <span class="tech-tag"><i class="devicon-git-plain colored"></i> Git</span>
-        <span class="tech-tag"><i class="devicon-jira-plain colored"></i> Jira/Xray</span>
-        <span class="tech-tag"><i class="devicon-pandas-plain colored"></i> Pandas</span>
-      </div>
-    </section>
-
-    <section id="resources">
-      <h2 class="section-title">📂 Resources</h2>
-      <p class="section-subtitle">Download my resume, test artifacts, and explore my work</p>
-      <div class="resources-grid">
-        <a class="resource-card" id="downloadResume"><i class="fas fa-file-pdf"></i><span><strong>Resume</strong></span><small>Download PDF</small></a>
-        <a href="https://github.com" target="_blank" rel="noopener" class="resource-card"><i class="fab fa-github"></i><span><strong>GitHub</strong></span><small>View Repositories</small></a>
-        <a class="resource-card" id="downloadTestCases"><i class="fas fa-file-excel"></i><span><strong>Test Cases</strong></span><small>Sample Excel</small></a>
-        <a class="resource-card" id="downloadEvidence"><i class="fas fa-images"></i><span><strong>Test Evidence</strong></span><small>Reports & Screenshots</small></a>
       </div>
     </section>
 
@@ -390,7 +376,6 @@
 
   <footer><p>© 2026 Rushikesh Kharat · Senior QA Automation Engineer</p><p style="margin-top:4px;">Playwright · Python · AWS · Snowflake · CI/CD</p></footer>
 
-  <!-- Chatbot -->
   <style>
     .rushi-chatbot{position:fixed;bottom:24px;left:24px;z-index:9999;font-family:'Inter',system-ui,-apple-system,sans-serif;}
     .rushi-chatbot .chat-bubble{width:58px;height:58px;border-radius:50%;background:linear-gradient(135deg,#2563eb,#7c3aed);border:none;color:white;font-size:24px;cursor:pointer;box-shadow:0 8px 30px rgba(37,99,235,0.35);transition:all 0.3s ease;display:flex;align-items:center;justify-content:center;animation:softPulse 2.5s infinite;position:relative;}
@@ -429,7 +414,7 @@
     <button class="chat-bubble" id="chatLauncher" title="Chat with Rushi's Assistance">💬<span class="notification-dot"></span></button>
     <div class="chat-window" id="chatWindow">
       <div class="chat-header"><div style="display:flex;align-items:center;gap:10px;"><div style="width:40px;height:40px;border-radius:50%;background:rgba(255,255,255,0.2);display:flex;align-items:center;justify-content:center;">🤖</div><div><strong>Rushi's Assistance</strong><br><small style="opacity:0.8;">● Online</small></div></div><button class="close-btn" id="chatCloser">✕</button></div>
-      <div class="chat-body" id="chatBody"><div class="msg bot">👋 <strong>Hello! I'm Rushi's Assistance.</strong><br><br>Ask me about QA experience, skills, or use the new QA Tools section!</div></div>
+      <div class="chat-body" id="chatBody"><div class="msg bot">👋 <strong>Hello! I'm Rushi's Assistance.</strong><br><br>Ask me about QA experience, skills, or try the new QA Tools section!</div></div>
       <div class="typing" id="typingIndicator"><span></span><span></span><span></span></div>
       <div class="quick-btns"><button class="quick-btn" data-msg="Experience">💼 Experience</button><button class="quick-btn" data-msg="Skills">🛠️ Skills</button><button class="quick-btn" data-msg="Tools">🧰 QA Tools</button><button class="quick-btn" data-msg="Contact">📧 Contact</button></div>
       <div class="chat-footer"><input type="text" id="chatInput" placeholder="Type your question..." /><button class="send-btn" id="chatSend">➤</button></div>
@@ -439,23 +424,25 @@
   <script>
     const GOOGLE_SHEET_URL = 'https://script.google.com/macros/s/AKfycbwaEyonelHIEmg0WERIVS8XBERtJ-Sf7tRrdSl_oVY9N6BWkTd3XEfTpYt--b-p53pB/exec';
     let visitorCount = 1000;
-    let liveViewers = Math.floor(Math.random() * 5) + 2;
+    let liveViewers = 1;
 
     (function() {
       window.addEventListener('load', () => { setTimeout(() => { document.getElementById('pageLoader').classList.add('hidden'); }, 1800); });
       window.addEventListener('scroll', () => { const p = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100; document.getElementById('scrollProgress').style.width = p + '%'; });
       
-      // Visitor count
       try { const s = localStorage.getItem('portfolioVisited'); if(!s){ visitorCount=1001; localStorage.setItem('portfolioVisited','true'); localStorage.setItem('visitorCount',visitorCount); } else { visitorCount=parseInt(localStorage.getItem('visitorCount'))||1000; } } catch(e){}
       document.getElementById('visitorCount').textContent = visitorCount.toLocaleString();
 
-      // Live viewers fluctuation
+      // Live viewers: 1 most of the time, occasionally 2, rarely 3
       function fluctuateViewers() {
-        const change = Math.floor(Math.random() * 5) - 2;
-        liveViewers = Math.max(1, Math.min(15, liveViewers + change));
+        const rand = Math.random();
+        if (rand < 0.75) liveViewers = 1;       // 75% chance: 1 viewer
+        else if (rand < 0.95) liveViewers = 2;  // 20% chance: 2 viewers
+        else liveViewers = 3;                    // 5% chance: 3 viewers
         document.getElementById('liveViewers').textContent = liveViewers;
       }
-      setInterval(fluctuateViewers, 5000);
+      fluctuateViewers();
+      setInterval(fluctuateViewers, 8000);
 
       // Return visitor recognition
       const lastVisit = localStorage.getItem('lastVisit');
@@ -477,140 +464,62 @@
       document.addEventListener('mousemove', (e) => { cursor.style.left = e.clientX + 'px'; cursor.style.top = e.clientY + 'px'; });
       document.querySelectorAll('a, button, .card, .resource-card, .quick-btn, .chat-bubble, .timeline-item, .tech-tag, #copyEmail, .tool-card').forEach(el => { el.addEventListener('mouseenter', () => cursor.classList.add('hover')); el.addEventListener('mouseleave', () => cursor.classList.remove('hover')); });
 
-      // Back to top
       const backBtn = document.getElementById('backToTop');
       window.addEventListener('scroll', () => { backBtn.classList.toggle('show', window.scrollY > 500); });
       backBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-      // 3D Tilt
       document.querySelectorAll('.card').forEach(card => { card.addEventListener('mousemove', (e) => { const r=card.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top,cx=r.width/2,cy=r.height/2; card.style.transform=`perspective(1000px) rotateX(${(y-cy)/12}deg) rotateY(${(cx-x)/12}deg) translateY(-6px)`; }); card.addEventListener('mouseleave', () => { card.style.transform='perspective(1000px) rotateX(0) rotateY(0) translateY(0)'; }); });
 
-      // Copy email
       document.getElementById('copyEmail').addEventListener('click', () => { navigator.clipboard.writeText('xxxxxxxxxxx@email.com').then(() => { const t=document.getElementById('copiedTooltip');t.classList.add('show');setTimeout(()=>t.classList.remove('show'),2000); }); });
 
-      // Typing effect
       const phrases=["Playwright Automation Expert","Python & PyTest Specialist","ETL & Data Warehouse Tester","AWS Cloud QA Engineer","AI-Assisted Testing Pioneer"];
       let i=0,j=0,cp=[],del=false;
       function te(){const el=document.getElementById('typingText');if(!del&&j<=phrases[i].length){cp.push(phrases[i][j]);j++;el.textContent=cp.join('');}else if(del&&j>=0){cp.pop();j--;el.textContent=cp.join('');}if(j===phrases[i].length){del=true;setTimeout(te,2000);return;}if(j===0&&del){del=false;i=(i+1)%phrases.length;}setTimeout(te,del?50:100);}te();
 
-      // Precise experience
       function ue(){const s=new Date('2019-12-01'),n=new Date(),d=n-s;document.getElementById('preciseExp').textContent=(d/(1000*60*60*24*365.25)).toFixed(1)+'+';}ue();setInterval(ue,86400000);
 
-      // Particles
       const pc=document.getElementById('particles');for(let i=0;i<30;i++){const p=document.createElement('div');p.classList.add('particle');const s=Math.random()*55+18;p.style.width=s+'px';p.style.height=s+'px';p.style.left=Math.random()*100+'%';p.style.animationDelay=Math.random()*15+'s';p.style.animationDuration=10+Math.random()*18+'s';pc.appendChild(p);}
 
-      // Location & time
       let tz=Intl.DateTimeFormat().resolvedOptions().timeZone,cc='UN';
       function gf(c){if(!c||c==='UN')return'🌍';return String.fromCodePoint(...c.toUpperCase().split('').map(x=>127397+x.charCodeAt()));}
       function udt(){try{const n=new Date();document.getElementById('dateDisplay').textContent=n.toLocaleDateString('en-US',{timeZone:tz,weekday:'short',year:'numeric',month:'short',day:'numeric'});document.getElementById('timeDisplay').textContent=n.toLocaleTimeString('en-US',{timeZone:tz,hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:true});}catch(e){}}
       async function dl(){try{const r=await fetch('https://ipapi.co/json/');const d=await r.json();if(d.timezone){tz=d.timezone;cc=d.country_code||'UN';}document.getElementById('visitorFlagSmall').textContent=gf(cc);}catch(e){try{const r=await fetch('https://ipinfo.io/json');const d=await r.json();if(d.timezone)tz=d.timezone;cc=d.country||'UN';document.getElementById('visitorFlagSmall').textContent=gf(cc);}catch(e2){document.getElementById('visitorFlagSmall').textContent='🌍';}}udt();setInterval(udt,1000);}
       if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',dl);else dl();
 
-      // Counter animation
       function ac(e,t,s='+'){const el=document.getElementById(e);if(!el)return;let c=0;const st=Math.ceil(t/80);const ti=setInterval(()=>{c+=st;if(c>=t){el.textContent=t+s;clearInterval(ti);}else{el.textContent=Math.floor(c)+s;}},30);}
       window.addEventListener('load',()=>{ac('testCounter',2000);});
 
-      // Progress bars
       const po=new IntersectionObserver((e)=>{e.forEach(en=>{if(en.isIntersecting)en.target.style.width=en.target.getAttribute('data-width');});},{threshold:0.3});
       document.querySelectorAll('.progress-fill').forEach(b=>po.observe(b));
 
-      // Theme
       const tt=document.getElementById('themeToggle'),html=document.documentElement,icon=tt.querySelector('i');
       function st(t){html.setAttribute('data-theme',t);localStorage.setItem('portfolioTheme',t);icon.className=t==='dark'?'fas fa-sun':'fas fa-moon';}
       st(localStorage.getItem('portfolioTheme')||'light');
       tt.addEventListener('click',()=>{st(html.getAttribute('data-theme')==='dark'?'light':'dark');});
 
-      // Bug messages
       const bm=['🐞 Bug spotted!','🪲 Squashing...','🔍 Testing...','✅ All green!','🕵️ QA mode'];let mi=0;setInterval(()=>{document.getElementById('bugMessage').textContent=bm[mi%bm.length];mi++;},2800);
 
-      // Downloads
       document.getElementById('downloadResume').addEventListener('click',(e)=>{e.preventDefault();alert('📄 Resume download (demo).');});
       document.getElementById('downloadTestCases').addEventListener('click',(e)=>{e.preventDefault();alert('📊 Test Cases Excel (demo).');});
       document.getElementById('downloadEvidence').addEventListener('click',(e)=>{e.preventDefault();alert('🖼️ Test Evidence (demo).');});
 
-      // Contact form with confetti
       document.getElementById('contactForm').addEventListener('submit',async function(e){e.preventDefault();const n=document.getElementById('name').value.trim(),em=document.getElementById('email').value.trim(),s=document.getElementById('subject').value.trim(),m=document.getElementById('message').value.trim(),fb=document.getElementById('formFeedback'),bt=document.getElementById('btnText'),bl=document.getElementById('btnLoading'),sb=document.getElementById('submitBtn');if(!n||!em){fb.textContent='❌ Please fill name and email.';fb.style.color='#f87171';fb.style.display='block';return;}bt.style.display='none';bl.style.display='inline';sb.disabled=true;fb.style.display='none';try{const fd=new FormData();fd.append('timestamp',new Date().toISOString());fd.append('name',n);fd.append('email',em);fd.append('subject',s||'No subject');fd.append('message',m||'No message');const r=await fetch(GOOGLE_SHEET_URL,{method:'POST',body:fd});const d=await r.json();if(d.result==='success'||r.ok){confetti({particleCount:150,spread:70,origin:{y:0.6},colors:['#2563eb','#7c3aed','#10b981','#f59e0b']});setTimeout(()=>confetti({particleCount:50,angle:60,spread:55,origin:{x:0}}),300);setTimeout(()=>confetti({particleCount:50,angle:120,spread:55,origin:{x:1}}),500);fb.textContent=`✅ Thanks ${n}!`;fb.style.color='#4ade80';fb.style.display='block';this.reset();}else throw new Error(d.message||'Failed');}catch(er){fb.textContent='❌ Unable to send.';fb.style.color='#f87171';fb.style.display='block';}finally{bt.style.display='inline';bl.style.display='none';sb.disabled=false;setTimeout(()=>{fb.style.display='none';},8000);}});
 
-      // Smooth scroll
       document.querySelectorAll('a[href^="#"]').forEach(a=>{a.addEventListener('click',function(e){const h=this.getAttribute('href');if(h==='#')return;e.preventDefault();document.querySelector(h).scrollIntoView({behavior:'smooth'});});});
     })();
 
-    // ============================================
-    // QA TOOLS FUNCTIONS
-    // ============================================
-    function calculateEstimation() {
-      const cases = parseInt(document.getElementById('testCases').value) || 100;
-      const complexity = document.getElementById('complexity').value;
-      const rates = { low: 1, medium: 3, high: 6 };
-      const hours = cases * rates[complexity];
-      const days = Math.round(hours / 8);
-      document.getElementById('estimationResult').innerHTML = `📊 <strong>Estimated:</strong> ${hours} hours (${days} working days)<br><small>Complexity: ${complexity} | ${cases} test cases</small>`;
-    }
-    function calculateROI() {
-      const hours = parseInt(document.getElementById('manualHours').value) || 160;
-      const rate = parseInt(document.getElementById('hourlyRate').value) || 50;
-      const monthlyCost = hours * rate;
-      const annualCost = monthlyCost * 12;
-      const savings = Math.round(annualCost * 0.8);
-      document.getElementById('roiResult').innerHTML = `💰 <strong>Annual Savings:</strong> $${savings.toLocaleString()} (80% reduction)<br><small>Manual cost: $${annualCost.toLocaleString()}/year → Automated: $${Math.round(annualCost*0.2).toLocaleString()}/year</small>`;
-    }
-    function classifyBug() {
-      const desc = document.getElementById('bugDesc').value.toLowerCase();
-      let severity, color;
-      if (desc.includes('crash') || desc.includes('data loss') || desc.includes('security') || desc.includes('unable')) { severity = '🔴 Critical - System crash, data loss, or security breach'; color = '#ef4444'; }
-      else if (desc.includes('error') || desc.includes('fail') || desc.includes('wrong') || desc.includes('incorrect')) { severity = '🟠 Major - Core functionality broken'; color = '#f59e0b'; }
-      else if (desc.includes('slow') || desc.includes('minor') || desc.includes('cosmetic') || desc.includes('typo')) { severity = '🟡 Minor - Non-critical issue'; color = '#eab308'; }
-      else { severity = '🟢 Low - Cosmetic or suggestion'; color = '#10b981'; }
-      document.getElementById('severityResult').innerHTML = `<span style="color:${color};font-weight:600;">${severity}</span>`;
-    }
-    function generateData() {
-      const type = document.getElementById('dataType').value;
-      let result;
-      const names = ['Rahul Sharma','Priya Patel','Amit Kumar','Sneha Reddy','Vikram Singh'];
-      switch(type) {
-        case 'email': result = `📧 test.user${Math.floor(Math.random()*1000)}@qa-test.com`; break;
-        case 'name': result = `👤 ${names[Math.floor(Math.random()*names.length)]}`; break;
-        case 'phone': result = `📱 +91-${Math.floor(Math.random()*9000000000)+1000000000}`; break;
-        case 'uuid': result = `🔑 ${crypto.randomUUID()}`; break;
-      }
-      document.getElementById('dataResult').textContent = result;
-    }
-    async function checkAPI() {
-      const url = document.getElementById('apiUrl').value.trim();
-      if (!url) { document.getElementById('apiResult').textContent = '⚠️ Please enter a URL'; return; }
-      document.getElementById('apiResult').textContent = '⏳ Testing...';
-      const start = performance.now();
-      try {
-        await fetch(url, { mode: 'no-cors' });
-        const time = Math.round(performance.now() - start);
-        let status = time < 200 ? '🟢 Fast' : time < 500 ? '🟡 Moderate' : '🔴 Slow';
-        document.getElementById('apiResult').innerHTML = `${status} <strong>${time}ms</strong><br><small>${url}</small>`;
-      } catch(e) {
-        document.getElementById('apiResult').innerHTML = `❌ Request failed<br><small>${url}</small>`;
-      }
-    }
-    function formatSQL() {
-      const sql = document.getElementById('sqlInput').value.trim();
-      if (!sql) { document.getElementById('sqlResult').textContent = '⚠️ Please enter SQL query'; return; }
-      const formatted = sql.replace(/\s+/g,' ').replace(/\b(SELECT|FROM|WHERE|ORDER BY|GROUP BY|HAVING|JOIN|LEFT JOIN|RIGHT JOIN|INNER JOIN|ON|AND|OR|LIMIT|INSERT|UPDATE|DELETE|SET|VALUES)\b/gi,'\n$1').replace(/\n\s*\n/g,'\n').trim();
-      document.getElementById('sqlResult').textContent = formatted;
-    }
-    function formatJSON() {
-      const input = document.getElementById('jsonInput').value.trim();
-      if (!input) { document.getElementById('jsonResult').textContent = '⚠️ Please enter JSON'; return; }
-      try {
-        const parsed = JSON.parse(input);
-        document.getElementById('jsonResult').textContent = JSON.stringify(parsed, null, 2);
-        document.getElementById('jsonResult').style.color = 'var(--success)';
-      } catch(e) {
-        document.getElementById('jsonResult').textContent = '❌ Invalid JSON: ' + e.message;
-        document.getElementById('jsonResult').style.color = '#ef4444';
-      }
-    }
+    // QA Tools Functions
+    function calculateEstimation() { const c=parseInt(document.getElementById('testCases').value)||100; const x=document.getElementById('complexity').value; const r={low:1,medium:3,high:6}; const h=c*r[x]; const d=Math.round(h/8); document.getElementById('estimationResult').innerHTML=`📊 <strong>Estimated:</strong> ${h} hours (${d} working days)<br><small>Complexity: ${x} | ${c} test cases</small>`; }
+    function calculateROI() { const h=parseInt(document.getElementById('manualHours').value)||160; const r=parseInt(document.getElementById('hourlyRate').value)||50; const mc=h*r; const ac=mc*12; const s=Math.round(ac*0.8); document.getElementById('roiResult').innerHTML=`💰 <strong>Annual Savings:</strong> $${s.toLocaleString()} (80% reduction)<br><small>Manual: $${ac.toLocaleString()}/year → Auto: $${Math.round(ac*0.2).toLocaleString()}/year</small>`; }
+    function classifyBug() { const d=document.getElementById('bugDesc').value.toLowerCase(); let s,c; if(d.includes('crash')||d.includes('data loss')||d.includes('security')||d.includes('unable')){s='🔴 Critical';c='#ef4444';} else if(d.includes('error')||d.includes('fail')||d.includes('wrong')){s='🟠 Major';c='#f59e0b';} else if(d.includes('slow')||d.includes('minor')||d.includes('cosmetic')){s='🟡 Minor';c='#eab308';} else{s='🟢 Low';c='#10b981';} document.getElementById('severityResult').innerHTML=`<span style="color:${c};font-weight:600;">${s}</span>`; }
+    function generateData() { const t=document.getElementById('dataType').value; const n=['Rahul Sharma','Priya Patel','Amit Kumar','Sneha Reddy','Vikram Singh']; let r; switch(t){case'email':r=`📧 test.user${Math.floor(Math.random()*1000)}@qa-test.com`;break;case'name':r=`👤 ${n[Math.floor(Math.random()*n.length)]}`;break;case'phone':r=`📱 +91-${Math.floor(Math.random()*9000000000)+1000000000}`;break;case'uuid':r=`🔑 ${crypto.randomUUID()}`;break;} document.getElementById('dataResult').textContent=r; }
+    async function checkAPI() { const u=document.getElementById('apiUrl').value.trim(); if(!u){document.getElementById('apiResult').textContent='⚠️ Please enter a URL';return;} document.getElementById('apiResult').textContent='⏳ Testing...'; const s=performance.now(); try{await fetch(u,{mode:'no-cors'});const t=Math.round(performance.now()-s);let st=t<200?'🟢 Fast':t<500?'🟡 Moderate':'🔴 Slow';document.getElementById('apiResult').innerHTML=`${st} <strong>${t}ms</strong><br><small>${u}</small>`;}catch(e){document.getElementById('apiResult').innerHTML=`❌ Request failed<br><small>${u}</small>`;} }
+    function formatSQL() { const s=document.getElementById('sqlInput').value.trim(); if(!s){document.getElementById('sqlResult').textContent='⚠️ Please enter SQL query';return;} const f=s.replace(/\s+/g,' ').replace(/\b(SELECT|FROM|WHERE|ORDER BY|GROUP BY|HAVING|JOIN|LEFT JOIN|RIGHT JOIN|INNER JOIN|ON|AND|OR|LIMIT|INSERT|UPDATE|DELETE|SET|VALUES)\b/gi,'\n$1').replace(/\n\s*\n/g,'\n').trim(); document.getElementById('sqlResult').textContent=f; }
+    function formatJSON() { const i=document.getElementById('jsonInput').value.trim(); if(!i){document.getElementById('jsonResult').textContent='⚠️ Please enter JSON';return;} try{const p=JSON.parse(i);document.getElementById('jsonResult').textContent=JSON.stringify(p,null,2);document.getElementById('jsonResult').style.color='var(--success)';}catch(e){document.getElementById('jsonResult').textContent='❌ Invalid JSON: '+e.message;document.getElementById('jsonResult').style.color='#ef4444';} }
 
     // Chatbot
     (function(){if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',ic);else ic();
-    function ic(){const k={greeting:{w:['hello','hi','hey'],r:"👋 Hello! Ask about QA experience, skills, or try the new QA Tools!"},experience:{w:['experience','year','work'],r:"🎯 6.5+ Years in QA Automation. Automated 2,000+ test cases!"},skills:{w:['skill','tech','tool'],r:"🛠️ Playwright, Selenium, Python, PyTest, AWS, Snowflake, Jenkins!"},tools:{w:['tool','calculator','estimate','roi','bug','json','sql','api','data'],r:"🧰 Check out the QA Tools section below! Free calculators for test estimation, ROI, bug classification & more."},contact:{w:['contact','email','hire'],r:"📧 Use the contact form to reach Rushikesh directly!"}};
+    function ic(){const k={greeting:{w:['hello','hi','hey'],r:"👋 Hello! Ask about QA experience, skills, or try the new QA Tools!"},experience:{w:['experience','year','work'],r:"🎯 6.5+ Years in QA Automation. Automated 2,000+ test cases!"},skills:{w:['skill','tech','tool'],r:"🛠️ Playwright, Selenium, Python, PyTest, AWS, Snowflake, Jenkins!"},tools:{w:['tool','calculator','estimate','roi','bug','json','sql','api','data'],r:"🧰 Check out the QA Tools section! Free calculators for test estimation, ROI, bug classification & more."},contact:{w:['contact','email','hire'],r:"📧 Use the contact form to reach Rushikesh directly!"}};
     function fr(t){const x=t.toLowerCase().trim();for(let c in k)for(let w of k[c].w)if(x.includes(w))return k[c].r;return "Try the <strong>QA Tools</strong> section or ask about experience/skills!";}
     const la=document.getElementById('chatLauncher'),we=document.getElementById('chatWindow'),cl=document.getElementById('chatCloser'),bd=document.getElementById('chatBody'),ty=document.getElementById('typingIndicator'),inp=document.getElementById('chatInput'),sb=document.getElementById('chatSend');
     if(!la||!we)return;la.onclick=()=>{we.classList.add('open');la.style.display='none';inp.focus();};cl.onclick=()=>{we.classList.remove('open');la.style.display='flex';};
